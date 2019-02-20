@@ -50,7 +50,7 @@ while(1)
     corr = correction(sample',w);
     wasCorr += wasCorrection(w, corr, i);
     #for criterion function -, for perceptron +
-    w = w + c*corr;
+    w = w + c*corr
   endfor
   if (wasCorr==0)
     break;

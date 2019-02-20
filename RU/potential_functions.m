@@ -1,9 +1,9 @@
 #samples
 #x=[0 0; 1 1; 0 1; 1 0];
-x = [0 -1; 0 0; 0 1]
+x = [0 0; 0 -1; 0 1]
 #classes
 #cl= [1 1 -1 -1];
-cl= [-1 1 -1];
+cl= [1 -1 -1];
 #criterion function constant
 alpha = 1;
 
