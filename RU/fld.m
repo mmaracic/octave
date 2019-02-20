@@ -1,8 +1,8 @@
 #broj uzoraka manji ili jednak od dimenzionalnosti uzoraka, inaèe SW singularna
 x1=[1 0 1; 2 1 1]
 x2=[0 1 1; 1 2 1]
-m1 = sum(x1./3)
-m2 = sum(x2./3)
+m1 = sum(x1./2)
+m2 = sum(x2./2)
 s1temp = x1 - repmat(m1,2,1)
 s2temp = x2 - repmat(m2,2,1)
 s1 = s1temp' * s1temp
